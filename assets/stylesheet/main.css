@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ################## LANDING PAGE STYLE ############################ */
+.landing-page{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/delicacy1.jpg")center/cover fixed no-repeat;
+    height: 100vh
+}
+.logo img{
+    width: 90px;
+}
+.landing-text{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.landing-text h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.landing-text p{
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.landing-text button{
+    padding: 7px 10px;
+    text-transform: capitalize;
+    background-color: #a80000;
+    border-color: #a80000;
+    border-radius: 7px;
+    transition: transform 1.2s ease, color 1.2s ease;
+    color: white;
+    margin-top: 30px;
+}
+.landing-text button:hover{
+    cursor: pointer;
+    text-transform: uppercase;
+    transform: translateY(-10px);
+}
+
+@media screen and (min-width: 576px){
+    .landing-text p{
+        width: 540px;
+    }
+}
+
